@@ -1,0 +1,22 @@
+{
+    "name": "catatsumuri/mbcsv",
+    "description": "Read Shift_JIS (SJIS-win) CSV files and get rows in the encoding you want. Extracted from a legacy PEAR-style application.",
+    "type": "library",
+    "keywords": ["csv", "sjis", "shift_jis", "mbstring", "pear"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "catatsumuri",
+            "email": "catatsumuri@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "ext-mbstring": "*",
+        "pear/pear-core-minimal": "^1.10.18"
+    },
+    "autoload": {
+        "classmap": ["src/File/MBCSV.php"]
+    },
+    "include-path": ["src/"]
+}
